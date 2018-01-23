@@ -1,0 +1,18 @@
+<!--pages/day5/userInfo.wxml-->
+<view>
+  <text>用户昵称：{{userName}}</text>
+</view>
+<view style='display:flex;'>
+  <text>用户头像：</text>
+  <image src='{{userImgUrl}}' style='  width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;'></image>
+</view>
+<view>
+  <text>性别：{{userGender}}</text>
+</view>
+<view>
+  <text>所在省：{{userProvince}}</text>
+</view>
+<view>
+  <text>所在市：{{userCity}}</text>
+</view>
+<button style='margin:10px;'>返回首页</button>

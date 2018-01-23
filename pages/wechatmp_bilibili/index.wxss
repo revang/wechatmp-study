@@ -1,0 +1,16 @@
+/* src/pages/day3/day3.wxss */
+.slider1Style{
+  background-color: hotpink;
+}
+
+.slider2Style{
+  background-color: palegreen;
+}
+
+.slider3Style{
+  background-color: aqua;
+}
+
+.slider4Style{
+  background-color: gray;
+}

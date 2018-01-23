@@ -1,0 +1,63 @@
+/* pages/wechatmp_bilibili/login.wxss */
+
+/* 顶部图片样式 */
+.img_top{
+  /* image 550*160 */
+  width: 750rpx;
+  height: 218rpx;
+}
+
+
+.login{
+  margin: 100rpx 100rpx 70rpx 100rpx;
+}
+
+.item{
+  display: flex;
+}
+
+/* 密码框样式 */
+.input_style{
+  width: 282rpx;
+}
+
+/* switch 文本样式 */
+.text_style{
+  color: #808080;
+}
+
+/* 用户协议文本样式 */
+.text_style_1{
+  color: #808080;
+  font-size:75%;
+}
+
+/* input 下划线 */
+.hr {
+  margin: 0px 0px 15px 0px;
+  border: 1px solid #ccc;
+  opacity: 0.3;
+}
+
+/* button 样式，不包含颜色 */
+.btn_style{
+  width: 200rpx;
+  height: 80rpx;
+  color: #000000;
+}
+
+/* button 样式 1，不包含颜色 */
+.btn_style_1{
+  width: 200rpx;
+  height: 80rpx;
+  border: 1.5px solid #FB739B;
+}
+
+/* view 容器 */
+.view_style{
+  width: 550rpx;
+  margin: 0rpx 100rpx;
+  display: flex;
+}
+
+

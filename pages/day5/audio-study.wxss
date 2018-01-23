@@ -1,0 +1,4 @@
+/* pages/day-4/audio-study.wxss */
+.btnType{
+  margin: 10px;
+}

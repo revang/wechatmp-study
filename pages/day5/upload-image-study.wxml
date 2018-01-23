@@ -1,0 +1,6 @@
+<!--pages/day-4/upload-image-study.wxml-->
+<image src="{{imageUrl}}"></image>
+ <button type='primary' bindtap='btn_choose_image' class='btnStyle'> 上传图片 </button>
+ <button type='primary' bindtap='btn_preview_image' class='btnStyle'> 预览图片 </button>
+ <button type='primary' bindtap='btn_getinfo_image' class='btnStyle'> 显示图片信息 </button>
+

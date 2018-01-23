@@ -1,0 +1,5 @@
+/* pages/day-4/day-4.wxss */
+
+.btnStyle{
+  margin: 10px;
+}

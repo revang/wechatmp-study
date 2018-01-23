@@ -1,0 +1,18 @@
+<!--pages/wechatmp_bilibili/index.wxml-->
+<!-- 上下混合布局 -->
+<swiper style='height:200px' indicator-dots='true' autoplay='true' interval='3000' duration='1000'>
+  <block wx:for="{{sliderList}}" wx:key="property">
+    <swiper-item class="{{item.sliderStyle}}">{{item.name}}</swiper-item>
+  </block>
+</swiper>
+
+<view style='display:flex;flex-direction:column;height:300rpx;'>
+  <view style='flex-grow:1;display:flex;flex-direction:row'>
+    <view style='flex-grow:1;background-color:palegreen;color:#ffffff;'>2</view>
+    <view style='flex-grow:1;background-color:aqua;color:#ffffff;'>3</view>
+  </view>
+  <view style='flex-grow:1;display:flex;flex-direction:row'>
+    <view style='flex-grow:1;background-color:palegreen;color:#ffffff;'>2</view>
+    <view style='flex-grow:1;background-color:aqua;color:#ffffff;'>3</view>
+  </view>
+</view>

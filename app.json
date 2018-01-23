@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/day5/day5",
+    "pages/day4/day4",
+    "pages/day2/day2",
+    "pages/wechatmp_bilibili/login",
+    "pages/index/index",
+    "pages/wechatmp_bilibili/index",
+    "pages/day5/audio-study",
+    "pages/day5/vedio-study",
+    "pages/day5/map-study",
+    "pages/day5/upload-image-study",
+    "pages/day1/day1",
+    "pages/logs/logs",
+    "pages/day4/company",
+    "pages/day4/forget_password",
+    "pages/wechatmp_bilibili/player",
+    "pages/day5/userInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#303133",
+    "color": "#fff",
+    "selectedColor": "#CC1004",
+    "list": [
+      {
+        "pagePath": "pages/day2/day2",
+        "text": "专题",
+        "iconPath": "pages/day2/images/tab/subject-0.jpg",
+        "selectedIconPath": "pages/day2/images/tab/subject-1.jpg"
+      },
+      {
+        "pagePath": "pages/day2/day2",
+        "text": "分类",
+        "iconPath": "pages/day2/images/tab/classify-0.jpg",
+        "selectedIconPath": "pages/day2/images/tab/classify-1.jpg"
+      },
+      {
+        "pagePath": "pages/day2/day2",
+        "text": "下载",
+        "iconPath": "pages/day2/images/tab/download-0.jpg",
+        "selectedIconPath": "pages/day2/images/tab/download-1.jpg"
+      },
+      {
+        "pagePath": "pages/day2/day2",
+        "text": "我的",
+        "iconPath": "pages/day2/images/tab/me-0.jpg",
+        "selectedIconPath": "pages/day2/images/tab/me-1.jpg"
+      },
+      {
+        "pagePath": "pages/day2/day2",
+        "text": "设置",
+        "iconPath": "pages/day2/images/tab/setup-0.jpg",
+        "selectedIconPath": "pages/day2/images/tab/setup-1.jpg"
+      }
+    ]
+  }
+}

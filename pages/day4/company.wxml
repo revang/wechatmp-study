@@ -1,0 +1,40 @@
+
+<view class='main' style='height:1180rpx;'>
+
+  <view class='signIn'>
+    <view style='height:10px;'></view>
+    <view class='item'>
+      <input placeholder='设置4-20位用户名'></input>
+    </view>
+
+    <view class='item'>
+      <input placeholder='密码' style='width:500rpx;'></input>
+      <switch></switch>
+    </view>
+
+    <view class='item'>
+      <input placeholder='请填写工商局注册名称'></input>
+    </view>
+
+    <view class='item'>
+      <input placeholder='联系人姓名'></input>
+    </view>
+
+    <view class='item'>
+      <input placeholder='请输入手机号' style='width:370rpx;'></input>
+      <button>发送验证码</button>
+    </view>
+
+    <view class='item'>
+      <input placeholder='短信验证码'></input>
+    </view>
+  </view>
+
+  <view class='btnSignIn'>
+    <button type='default' disabled=''>登录</button>
+  </view>
+
+  <text>注册视为同意</text>
+  <text>《京东用户注册协议》</text>
+
+</view>

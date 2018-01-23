@@ -1,0 +1,47 @@
+
+<view class='main'>
+
+  <view class='login'>
+    <view class='item'>
+      <view class='title'>账号</view>
+      <view class='num'>
+        <input placeholder='用户名/邮箱/手机号'></input>
+      </view>
+    </view>
+    <view class='hr'></view>
+
+    <view class='item'>
+      <view class='title'>密码</view>
+      <view class='num' style='display:flex;'>
+        <input placeholder='请输入密码' password='{{isSeePwd}}'></input>
+        <image src='./images/see.jpg' style='width:42px;height:30px'  bindtap='seePwd'></image>
+      </view>
+    </view>
+    <view class='hr'></view>
+  </view>
+
+  <view class='lgBt'>
+    <button type='default' disabled='false'>登录</button>
+  </view>
+
+  <view class='nav'>
+    <view>
+      <navigator url=''>手机快速注册</navigator>
+    </view>
+    <view>
+      <navigator url='../day4/company'>企业用户注册</navigator>
+    </view>
+    <view>
+      <navigator url='../day4/forget_password'>找回密码</navigator>
+    </view>
+  </view>
+
+  <view class='lgType'>
+    <view>
+      <image src='./images/qqlogin.png' style='width:70px;height:98px'></image>
+    </view>
+    <view>
+      <image src='./images/wxlogin.png' style='width:70px;height:98px'></image>
+    </view>
+  </view>
+</view>

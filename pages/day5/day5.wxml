@@ -1,0 +1,11 @@
+<view>
+  <!-- 调用 wx.navigateTo API-->
+  <!-- wx.navigateTo({url: 'test?id=1'})-->
+  <button type='primary' bindtap='goto_audio_page' class='btnStyle'> 音乐播放 </button>
+  <button type='primary' bindtap='goto_vedio_page' class='btnStyle'> 视频播放 </button>
+  <button type='primary' bindtap='goto_map_page' class='btnStyle'> 获取位置信息 </button>
+
+  <!-- wx.chooseImage -->
+  <button class='btnStyle' bindtap='goto_upload_image_page'> 上传图片 </button>
+  <button class='btnStyle' bindtap='goto_userInfo'> 获取用户信息 </button>
+</view>

@@ -1,0 +1,4 @@
+/* pages/day-4/upload-image-study.wxss */
+.btnStyle{
+  margin: 10px;
+}

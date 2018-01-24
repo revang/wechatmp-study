@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/wechatmp_bilibili/index",
+    "pages/wechatmp_bilibili/user",
+    "pages/index/index",
     "pages/day5/day5",
     "pages/day4/day4",
     "pages/day2/day2",
     "pages/wechatmp_bilibili/login",
-    "pages/index/index",
-    "pages/wechatmp_bilibili/index",
     "pages/day5/audio-study",
     "pages/day5/vedio-study",
     "pages/day5/map-study",
@@ -17,46 +18,22 @@
     "pages/wechatmp_bilibili/player",
     "pages/day5/userInfo"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
   "tabBar": {
-    "backgroundColor": "#303133",
+    "backgroundColor": "#FB739B",
     "color": "#fff",
     "selectedColor": "#CC1004",
     "list": [
       {
-        "pagePath": "pages/day2/day2",
-        "text": "专题",
-        "iconPath": "pages/day2/images/tab/subject-0.jpg",
-        "selectedIconPath": "pages/day2/images/tab/subject-1.jpg"
+        "pagePath": "pages/wechatmp_bilibili/index",
+        "text": "首页",
+        "iconPath": "pages/wechatmp_bilibili/images/icon/shopping190.png",
+        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/shopping190.png"
       },
       {
-        "pagePath": "pages/day2/day2",
-        "text": "分类",
-        "iconPath": "pages/day2/images/tab/classify-0.jpg",
-        "selectedIconPath": "pages/day2/images/tab/classify-1.jpg"
-      },
-      {
-        "pagePath": "pages/day2/day2",
-        "text": "下载",
-        "iconPath": "pages/day2/images/tab/download-0.jpg",
-        "selectedIconPath": "pages/day2/images/tab/download-1.jpg"
-      },
-      {
-        "pagePath": "pages/day2/day2",
-        "text": "我的",
-        "iconPath": "pages/day2/images/tab/me-0.jpg",
-        "selectedIconPath": "pages/day2/images/tab/me-1.jpg"
-      },
-      {
-        "pagePath": "pages/day2/day2",
-        "text": "设置",
-        "iconPath": "pages/day2/images/tab/setup-0.jpg",
-        "selectedIconPath": "pages/day2/images/tab/setup-1.jpg"
+        "pagePath": "pages/wechatmp_bilibili/user",
+        "text": "用户",
+        "iconPath": "pages/wechatmp_bilibili/images/icon/user152.png",
+        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/user152.png"
       }
     ]
   }

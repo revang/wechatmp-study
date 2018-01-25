@@ -1,2 +1,23 @@
-<!--pages/wechatmp_bilibili/player.wxml-->
-<text>pages/wechatmp_bilibili/player.wxml</text>
+<view style='background-color:width:100%;height:100%;background-color:#F3F3F3;'>
+  <view class="section tc" style='background-color:#fff;'>
+    <video id="myVideo" src="{{vedioSrc}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls class='vedioStyle'></video>
+    <view class="btn_b1">
+      <!-- <button bindtap="bindButtonTap">获取视频</button> -->
+      <view>
+        <input bindblur="bindInputBlur" placeholder='来发弹幕吧' class='input_style' />
+      </view>
+      <view>
+        <button bindtap="bindSendDanmu" class='btn_style' size='mini'>发送</button>
+      </view>
+    </view>
+  </view>
+
+   <!-- <view style='font-size: 80%;margin:15px;'>
+    <view>
+      <text style='font-size:140%;'>简介</text>
+    </view>
+    <text>记得大约在两年前我接触到了萌王，一个很棒的游戏。它与其它同类型游戏不一样，有着一个不错的背景，有着另一个神奇的系统——使魔系统。不过在内测。现在叫那个版本的人叫0.9的大佬。</text>
+    <text>后来游戏改版 使魔系统重作，从原来的直接释放改为放兵营，原来的老战术破产。我在改版后的第一局输了，我去虚心请教大佬，但想到老的战友不免一丝惆怅。一次，打3v3的时间想到了一0.9时期的大佬,打开搜索,输入熟悉的名字[“对不起，您搜索的人不存在”]......
+      </text>
+  </view>  -->
+</view>

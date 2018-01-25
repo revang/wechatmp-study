@@ -1,0 +1,3 @@
+<!--pages/wechatmp_bilibili/partition.wxml-->
+<view style='background-color:#F3F3F3;width:750rpx;height:1080rpx;'><image src='./images/menu.png' style='width:750rpx;height:940rpx;' mode='aspectFill'></image></view>
+

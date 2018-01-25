@@ -18,7 +18,7 @@
 
 /* 密码框样式 */
 .input_style{
-  width: 282rpx;
+  width: 430rpx;
 }
 
 /* switch 文本样式 */
@@ -44,6 +44,7 @@
   width: 200rpx;
   height: 80rpx;
   color: #000000;
+  font-size: 80%;
 }
 
 /* button 样式 1，不包含颜色 */
@@ -51,6 +52,7 @@
   width: 200rpx;
   height: 80rpx;
   border: 1.5px solid #FB739B;
+  font-size: 80%;
 }
 
 /* view 容器 */

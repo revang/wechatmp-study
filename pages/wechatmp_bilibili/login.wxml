@@ -11,17 +11,17 @@
 <!-- 用户名密码 -->
 <view class='login'>
   <view class='item'>
-    <input placeholder='用户名/邮箱/手机号'></input>
+    <input placeholder='用户名/邮箱/手机号' style='font-size:80%;' bindfocus='input1'></input>
   </view>
   <view class='hr'></view>
 
   <view class='item'>
     <view>
-      <input placeholder='密码' password='{{isSeePwd}}' class='input_style'></input>
+      <input placeholder='密码' password='{{isSeePwd}}' class='input_style'  style='font-size:80%;' bindfocus='input2'></input>
       <view class='hr'></view>
     </view>
     <switch bindchange='see_pwd' color='#FB739B'>
-      <text class='text_style'>{{textPwd}}</text>
+      <!-- <text class='text_style'  style='font-size:80%;'>{{textPwd}}</text> -->
     </switch>
   </view>
 
@@ -32,6 +32,6 @@
 
 <!-- button -->
 <view class='view_style view_padding'>
-  <button type='primary' class='btn_style_1' style='background-color:#ffffff;color:#FB739B;'> 登录 </button>
+  <button type='primary' class='btn_style_1' style='background-color:#ffffff;color:#FB739B;' bindtap='goto_index'> 登录 </button>
   <button type='primary' class='btn_style' style='background-color:#FB739B;'> 注册 </button>
 </view>

@@ -1,1 +1,23 @@
 /* pages/wechatmp_bilibili/player.wxss */
+
+.vedioStyle{
+  width: 750rpx;
+  height: 315rpx;
+}
+
+.btn_b1{
+  display: flex;
+  margin: 0 25rpx;
+  width: 700rpx;
+}
+
+.input_style{
+  margin: 1px 5px 0 0;
+  border: #808080 1px solid;
+  width: 550rpx;
+  font-size: 80%;
+}
+
+.btn_style{
+  font-size: 70%;
+}

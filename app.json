@@ -1,22 +1,29 @@
 {
   "pages": [
+    "pages/wechatmp_bilibili/login",
     "pages/wechatmp_bilibili/index",
+    "pages/wechatmp_bilibili/user-text",
+    
+    "pages/day5/day5",
+    "pages/wechatmp_bilibili/player",
+    "pages/day5/vedio-study",
+    
     "pages/wechatmp_bilibili/user",
     "pages/index/index",
-    "pages/day5/day5",
     "pages/day4/day4",
     "pages/day2/day2",
-    "pages/wechatmp_bilibili/login",
     "pages/day5/audio-study",
-    "pages/day5/vedio-study",
     "pages/day5/map-study",
     "pages/day5/upload-image-study",
     "pages/day1/day1",
     "pages/logs/logs",
     "pages/day4/company",
     "pages/day4/forget_password",
-    "pages/wechatmp_bilibili/player",
-    "pages/day5/userInfo"
+    "pages/day5/userInfo",
+    "pages/wechatmp_bilibili/partition",
+    "pages/wechatmp_bilibili/dynamic",
+    "pages/wechatmp_bilibili/map"
+    
   ],
   "tabBar": {
     "backgroundColor": "#FB739B",
@@ -26,14 +33,26 @@
       {
         "pagePath": "pages/wechatmp_bilibili/index",
         "text": "首页",
-        "iconPath": "pages/wechatmp_bilibili/images/icon/shopping190.png",
-        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/shopping190.png"
+        "iconPath": "pages/wechatmp_bilibili/images/icon/icon1.png",
+        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/icon1.png"
+      },
+      {
+        "pagePath": "pages/wechatmp_bilibili/partition",
+        "text": "分区",
+        "iconPath": "pages/wechatmp_bilibili/images/icon/icon2.png",
+        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/icon2.png"
+      },
+      {
+        "pagePath": "pages/wechatmp_bilibili/dynamic",
+        "text": "动态",
+        "iconPath": "pages/wechatmp_bilibili/images/icon/icon3.png",
+        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/icon3.png"
       },
       {
         "pagePath": "pages/wechatmp_bilibili/user",
         "text": "用户",
-        "iconPath": "pages/wechatmp_bilibili/images/icon/user152.png",
-        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/user152.png"
+        "iconPath": "pages/wechatmp_bilibili/images/icon/icon4.png",
+        "selectedIconPath": "pages/wechatmp_bilibili/images/icon/icon4.png"
       }
     ]
   }

@@ -9,7 +9,7 @@
   </view> -->
   <view class='itemu' style='display:flex;flex-derection:row;justify-content:space-between;'>
     <view><text class='text_style_2'>头像</text></view>
-    <view><image src='{{userImgUrl}}' class="userinfo-avatar"></image></view>
+    <view><image src='{{userImgUrl}}' class="userinfo-avatar" bindtap='btn_choose_image'></image></view>
   </view>
   <view class='hr'></view>
 
@@ -32,7 +32,7 @@
 
   <view class='itemu' style='display:flex;'>
     <view><text class='text_style_2'>二维码名片</text></view>
-    <view><image src='{{img2}}' class='userinfo-avatar'></image></view>
+    <view><image src='{{img2}}' class='userinfo-avatar'  bindtap='btn_preview_image'></image></view>
   </view>
    <view class='hr'></view>
 
@@ -50,13 +50,15 @@
 
   <view class='itemu'>
     <view><text class='text_style_2'>地址</text></view>
-    <view><text class='text_style_1'>{{userAddress}}</text></view>
+    <navigator url='{{mapUrl}}'>
+    <view><text class='text_style_1'>{{userAddress}}</text></view></navigator>
   </view>
    <view class='hr'></view>
 
   <view class='itemu'>
     <view><text class='text_style_2'>个性签名</text></view>
-    <view><text class='text_style_1'>{{userText}}</text></view>
+     <view><text class='text_style_1' bindtap='setUserText'>{{userText}}</text></view> 
+    <!-- <view><input placeholder='{{userText}}' class='text_style_1' style='text-align:right;' bindblur='setUserText'></input></view> -->
   </view>
    <view class='hr'></view>
 

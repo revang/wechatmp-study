@@ -9,55 +9,69 @@ Page({
 
     indicatorDots: true,
     imgUrls: [
-      './images/top1.png',
-      './images/top2.png',
-      './images/top3.png',
-      './images/top4.png'
+      // './images/top1.png',
+      // './images/top2.png',
+      // './images/top3.png',
+      // './images/top4.png',
+      'https://raw.githubusercontent.com/revang/wechatmp-study/master/pages/wechatmp_bilibili/images/top1.png',
+      'https://raw.githubusercontent.com/revang/wechatmp-study/master/pages/wechatmp_bilibili/images/top2.png',
+      'https://raw.githubusercontent.com/revang/wechatmp-study/master/pages/wechatmp_bilibili/images/top3.png',
+      'https://raw.githubusercontent.com/revang/wechatmp-study/master/pages/wechatmp_bilibili/images/top4.png',
+      
     ],
-    product: [
+
+    listSum:[
+      {
+        pic:'./images/list/pic-1.jpg',
+        title:'title1',
+        text:'text1',
+        pic1: './images/list/pic-1.jpg',
+        title1: 'title1',
+        text1: 'text1'
+      },
       {
         pic: './images/list/pic-1.jpg',
-        title: '爱心早餐',
-        mNum: 26,
-        star: 230,
-        plcount: 1134
-      },
-      {
-        pic: './images/list/pic-2.jpg',
-        title: '营养炖菜',
-        mNum: 33,
-        star: 430,
-        plcount: 3454
-      },
-      {
-        pic: './images/list/pic-3.jpg',
-        title: '主食也不单调',
-        mNum: 26,
-        star: 230,
-        plcount: 134
-      },
-      {
-        pic: './images/list/pic-4.jpg',
-        title: '中式简餐菜肴',
-        mNum: 54,
-        star: 567,
-        plcount: 5463
-      },
-      {
-        pic: './images/list/pic-5.jpg',
-        title: '犯懒专用宝宝饭',
-        mNum: 67,
-        star: 435,
-        plcount: 4343
+        title: 'title1',
+        text: 'text1',
+        pic1: './images/list/pic-1.jpg',
+        title1: 'title1',
+        text1: 'text1'
       }
+    ],
+
+    imgItem:[
+      {
+        pic:'./images/item1.png',
+        title: '【雷安/手书】Finale-Original Edit',
+        text:'bgm：finale-original edit-madeon'
+      },
+      {
+        pic: './images/item2.jpg',
+        title: '【黑执事MMD】一样可以保护你',
+        text: '丽兹小天使生日快乐啊啊(/≧▽≦)/~┴┴ '
+      },
+      {
+        pic: './images/item4.jpg',
+        title: '【tiki】红昭愿',
+        text: '作词: 荒唐客(偏生梓归 作曲: 殇小谨 编曲 ：朱鸽 后期/混音: mr.鱼'
+      },
+      {
+        pic: './images/item3.jpg',
+        title: '【五五开】目标是开挂大师',
+        text: '推荐一下全明星版：av17505741'
+      }
+      
     ]
+ 
 
   },
-  seeDetail: function (e) {
-    var id = e.currentTarget.id;
+
+  goto_player:function(){
+
     wx.navigateTo({
-      url: '../subjectDetail/subjectDetail?id=' + id
+      url: './player',
     })
+
   },
 
 

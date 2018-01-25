@@ -1,36 +1,28 @@
-<view class="section">
-  <swiper autoplay="true" interval="3000" duration="1000" indicator-dots="{{indicatorDots}}">
-    <block wx:for="{{imgUrls}}" wx:key="property">
-      <swiper-item>
-        <image src="{{item}}" width="350" height="211" class="slide-image" mode='aspectFill'></image>
-      </swiper-item>
-    </block>
-  </swiper>
-</view>
-
-
-
-
-
-<!-- <view class="list" wx:for="{{product}}">
-  <view class="item" bindtap="seeDetail" id="{{index}}">
-    <view>
-      <image src="{{item.pic}}" style="width:78px;height:60px;"></image>
-    </view>
-    <view class="desc">
-      <view class="title">{{item.title}}</view>
-      <view class="count">
-        <view>共{{item.mNum}}个菜谱</view>
-        <view>
-          <image src="./images/icon/xingxing.jpg" style="width:18px;height:17px;"></image>
-        </view>
-        <view>{{item.star}}</view>
-        <view>
-          <image src="./images/icon/yanjing.jpg" style="width:23px;height:17px;"></image>
-        </view>
-        <view>{{item.plcount}}</view>
-      </view>
-    </view>
+<view style='width:100%;height:100%;background-color:#F3F3F3;'>
+  <view class="section">
+    <swiper autoplay="true" interval="3000" duration="1000" indicator-dots="{{indicatorDots}}">
+      <block wx:for="{{imgUrls}}" wx:key="property">
+        <swiper-item>
+          <image src="{{item}}" width="350" height="211" class="slide-image" mode='aspectFill'></image>
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
-  <view class="hr"></view>
-</view>  -->
+
+  <view class="list" wx:for="{{imgItem}}" wx:key="property">
+    <view class="item" bindtap="goto_player" id="{{index}}">
+      <view>
+        <image src="{{item.pic}}" class='imageStyle'></image>
+      </view>
+      <view>
+      <view style='margin:5px;'>
+        <text class='text_style'>{{item.title}}</text>
+      </view>
+      <view style='margin:5px;'>
+        <text class='text_style_1'>{{item.text}}</text>
+      </view></view>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+</view>

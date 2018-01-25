@@ -1,0 +1,10 @@
+<!--pages/wechatmp_bilibili/user-text.wxml-->
+<view style='display:flex;justify-content:space-between;margin:10px;'>
+  <view>
+    <input placeholder='{{text}}' class='text_style_1' bindinput='bindKeyInput'></input>
+  </view>
+
+  <view>
+    <button type='primary' class='btn_style_1' style='background-color:#ffffff;color:#FB739B;' bindtap='goto_index' size='mini'> 修改 </button>
+  </view>
+</view>

@@ -1,19 +1,11 @@
-// pages/wechatmp_bilibili/login.js
+// pages/wechatmp_bilibili/partition.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isInputPwd:false,
-    imgLoginUrls:[
-      'images/login-username.png',
-      'images/login-password.png',
-    ],
-
-    textPwd:"显示密码",
-    isSeePwd:true
-    
+  
   },
 
   /**
@@ -70,35 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  // 是否显示密码
-  see_pwd: function (e) {
-    if (this.data.isSeePwd = false) {
-      this.setData({ textPwd: "显示密码", isSeePwd: true });
-    }
-    else {
-      this.setData({ textPwd: "隐藏密码", isSeePwd: false });
-    }
-    console.log(this.data.isSeePwd)
-  },
-
-  //goto_index
-  goto_index:function(){
-    wx.showToast({
-      title: '登录成功',
-      icon: 'success',
-      duration: 2000
-    })
-    wx.switchTab({
-      url: './index',
-    })
-  },
-  input1:function(){
-    this.setData({ isInputPwd: false})
-  },
-  input2: function () {
-    this.setData({ isInputPwd: true })
   }
-  
 })

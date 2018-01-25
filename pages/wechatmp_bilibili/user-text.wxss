@@ -1,0 +1,17 @@
+/* pages/wechatmp_bilibili/user-text.wxss */
+.text_style_1{
+  color: #808080;
+  font-size:80%;
+  margin: 10px;
+  /* border: 1px #808080 solid; */
+}
+
+/* button 样式 1，不包含颜色 */
+.btn_style_1{
+  width: 150rpx;
+  height: 60rpx;
+  border: 1.5px solid #FB739B;
+  font-size: 80%;
+  text-align: center;
+  margin: auto;
+}

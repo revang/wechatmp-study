@@ -1,4 +1,5 @@
 {
     "navigationBarBackgroundColor": "#FB739B",
-    "navigationBarTitleText": "首页"
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "#F3F3F3"
 }
